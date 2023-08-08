@@ -512,3 +512,127 @@ header ul.menu li.item-click .item ul .contents {
   left: 0;
   width: 100%;
 }
+
+/* Hero */
+.ipad-hero {
+  background-color: #000;
+  color: #f5f5f7;
+  padding-top: 140px;
+  padding-bottom: 140px;
+  text-align: center;
+}
+
+.section-content {
+  margin: 0 auto;
+  width: 980px;
+}
+
+.ipad-hero .section-content .section-items {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  align-items: center;
+}
+
+.ipad-hero .section-content .section-items .item-description {
+  flex-basis: 50%;
+  max-width: 50%;
+  order: 2;
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  min-width: 0px;
+}
+
+.ipad-hero .section-content .section-items .item-description h2 {
+  font-size: 24px;
+  color: #f5f5f7;
+  line-height: 1.29167;
+  font-weight: 600;
+  letter-spacing: 0.009em;
+}
+
+.ipad-hero .section-content .section-items .item-description h3 {
+  line-height: 1.17865;
+  font-weight: 600;
+  letter-spacing: 0em;
+  color: #f5f5f7;
+  font-size: 56px;
+  margin-top: 0.4em;
+}
+
+.ipad-hero .section-content .section-items .item-description .link-list {
+  margin-top: 40px;
+}
+
+.ipad-hero .section-content .section-items .item-description .link-list a {
+  line-height: 1.58824;
+  font-size: 17px;
+  color: #2997ff;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ipad-hero
+  .section-content
+  .section-items
+  .item-description
+  .link-list
+  a:hover
+  .link-description {
+  text-decoration: underline;
+}
+
+.ipad-hero .section-content .section-items .item-description .video-wrap {
+  margin-top: 0.8em;
+  display: block;
+}
+
+.ipad-hero .section-content .section-items .item-description .video-wrap a {
+  line-height: 1.58824;
+  font-size: 17px;
+  color: #2997ff;
+  letter-spacing: inherit;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.ipad-hero
+  .section-content
+  .section-items
+  .item-description
+  .video-wrap
+  a:hover
+  .watch-video {
+  text-decoration: underline;
+}
+
+.ipad-hero .section-content .section-items .item-fcpro {
+  flex-basis: 25%;
+  max-width: 25%;
+  order: 1;
+}
+
+.ipad-hero .section-content .section-items .item-fcpro .img-ipad-fcpro {
+  width: 735px;
+  height: 569px;
+  background-size: 735px 569px;
+  background-repeat: no-repeat;
+  background-image: url("/images/fcp_ipad_hero__e663fdl2htea_large_2x.png");
+  margin-left: -480px;
+}
+
+.ipad-hero .section-content .section-items .item-lgpro {
+  flex-basis: 25%;
+  max-width: 25%;
+  order: 3;
+}
+
+.ipad-hero .section-content .section-items .item-lgpro .img-ipad-lgpro {
+  width: 735px;
+  height: 569px;
+  background-size: 735px 569px;
+  background-repeat: no-repeat;
+  background-image: url("/images/lp_ipad_hero__ec9vtoqzs0a6_large_2x.png");
+  margin-right: -480px;
+}

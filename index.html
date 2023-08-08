@@ -42,32 +42,1203 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&family=Roboto:wght@400;500;700&display=swap"
       rel="stylesheet"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
     <link rel="stylesheet" href="/css/main.css" />
 
     <!-- JavaScript -->
+    <!-- gsap -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"
+      integrity="sha512-16esztaSRplJROstbIIdwX3N97V1+pZvV33ABoG1H2OyTttBxEGkTsoIVsiP1iaTtM8b3+hu2kB6pQ4Clr5yug=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script defer src="/js/main.js"></script>
   </head>
   <body>
     <!-- Header -->
     <header>
       <div class="inner">
         <ul class="menu">
-          <li class="apple-logo"><a href="javascript:void(0)">Apple</a></li>
-          <li><a href="javascript:void(0)">스토어</a></li>
-          <li><a href="javascript:void(0)">Mac</a></li>
-          <li><a href="javascript:void(0)">iPad</a></li>
-          <li><a href="javascript:void(0)">iPhone</a></li>
-          <li><a href="javascript:void(0)">Watch</a></li>
-          <li><a href="javascript:void(0)">AirPods</a></li>
-          <li><a href="javascript:void(0)">TV 및 홈</a></li>
-          <li><a href="javascript:void(0)">엔터테인먼트</a></li>
-          <li><a href="javascript:void(0)">액세서리</a></li>
-          <li><a href="javascript:void(0)">고객지원</a></li>
-          <li class="search-starter"><a href="javascript:void(0)">검색</a></li>
-          <li class="cart-starter">
-            <a href="javascript:void(0)">장바구니</a>
+          <li class="apple-logo"><a href="/" class="menu-item">Apple</a></li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">스토어</a>
+            <div class="item store">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >최신 제품 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >액세서리</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>빠른 링크</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >매장 찾기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >주문 상태</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Trade In</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >할부 방식</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>특별 할인 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >인증 리퍼비쉬 제품</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >교육</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >비즈니스</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">Mac</a>
+            <div class="item mac">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>Mac 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac 모두 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >MacBook Air</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >MacBook Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iMac</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac Mini</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac Studio</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >디스플레이</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac 비교하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac은 뭐든 척척</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>Mac 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac 액세서리</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Trade In</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >할부 방식</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 Mac 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >macOS Sonoma 미리보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac을 위한 AppleCare+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Final Cut Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Logic Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >연속성</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iCloud</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Mac과 비즈니스</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >교육</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">iPad</a>
+            <div class="item ipad">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>iPad 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad 모두 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad Air</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad Mini</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Pencil</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >키보드</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad 비교하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad를 선택하는 이유</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>iPad 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad 액세서리</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Trade In</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >할부 방식</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 iPad 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPadOS 17 미리보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad를 위한 AppleCare+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad용 Final Cut Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPad용 Logic Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >연속성</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iCloud</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >교육</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">iPhone</a>
+            <div class="item iphone">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>iPhone 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone 모두 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone 14 Pro</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone 14</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone 13</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone 12</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone SE</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone 비교하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >안드로이드에서 갈아타기</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>iPhone 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone 액세서리</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Trade In</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >할부 방식</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 iPhone 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iOS 17 미리보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone을 위한 AppleCare+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iPhone의 개인 정보 보호</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >iCloud</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple 지갑, Apple Pay</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Siri</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">Watch</a>
+            <div class="item watch">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>Watch 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch 모두 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch Ultra</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch Series 8</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch SE</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch Nike</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch Hermès</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Watch 비교하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch를 선택하는 이유</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>Watch 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch Studio</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch 밴드</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch 액세서리</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Trade In</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >할부 방식</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 Watch 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Watch 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >watchOS 10 미리보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AppleCare+</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">AirPods</a>
+            <div class="item airpods">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>AirPods 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods 모두 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods Pro 2세대</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods 2세대</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods 3세대</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods Max</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirPods 비교하기</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>AirPods 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirPods 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirPods 액세서리</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 AirPods 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirPods 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >헤드폰을 위한 AppleCare+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Music</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">TV 및 홈</a>
+            <div class="item tv">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>TV 및 홈 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >TV 및 홈 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple TV 4K</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>TV 및 홈 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple TV 4K 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Siri Remote 쇼핑하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >TV 및 홈 액세서리</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>그 외 TV 및 홈 관련 항목</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple TV 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AppleCare+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple TV 앱</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple TV+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >홈 앱</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Music</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Siri</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirPlay</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">엔터테인먼트</a>
+            <div class="item enter">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>엔터테인먼트 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >엔터테인먼트 살펴보기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple One</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple TV+</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Music</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Arcade</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Podcasts</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Books</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >App Store</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>지원</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple TV+ 지원</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple Music 지원</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">액세서리</a>
+            <div class="item accs">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>액세서리 쇼핑하기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Apple Watch</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >TV 및 홈</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >액세서리 모두 쇼핑하기</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>액세서리 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple 제작 정품</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Beats by Dr. Dre</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AirTag</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="item-hover">
+            <a href="javascript:void(0)" class="menu-item">고객지원</a>
+            <div class="item cs">
+              <div class="inner">
+                <ul class="item-lists">
+                  <li class="item-lists-left">
+                    <ul>
+                      <li><p>지원 상황 살펴보기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPhone</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Mac</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >iPad</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Watch</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >AirPods</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >Music</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents-left"
+                          >TV</a
+                        >
+                      </li>
+                      <br />
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >지원 상황 살펴보기</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="item-lists-center">
+                    <ul>
+                      <li><p>도움 받기</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >커뮤니티</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >보장 상태 확인하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >수리</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >문의하기</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li>
+                    <ul>
+                      <li><p>유용한 주제</p></li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >AppleCare+ 구입하기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >Apple ID 및 암호</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >청구 및 구독</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >나의 찾기</a
+                        >
+                      </li>
+                      <li>
+                        <a href="javascript:void(0)" class="item-contents"
+                          >손쉬운 사용</a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="search-starter item-click">
+            <a href="javascript:void(0)" class="menu-item">검색</a>
+            <div class="item">
+              <div class="inner">
+                <div class="search">
+                  <input type="text" placeholder="apple.com 검색하기" />
+                  <div class="search-icon"></div>
+                </div>
+                <ul>
+                  <li><p>빠른 링크</p></li>
+                  <li>
+                    <div>
+                      <img src="/images/next.png" alt="next" />
+                      <a href="javascript:void(0)" class="contents"
+                        >Apple Store Online에서 쇼핑하기</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/next.png" alt="next" />
+                      <a href="javascript:void(0)" class="contents">액세서리</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/next.png" alt="next" />
+                      <a href="javascript:void(0)" class="contents">AirPods</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/next.png" alt="next" />
+                      <a href="javascript:void(0)" class="contents">AirTag</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/next.png" alt="next" />
+                      <a href="javascript:void(0)" class="contents"
+                        >Apple Trade In</a
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </li>
+          <li class="cart-starter item-click">
+            <a href="javascript:void(0)" class="menu-item">장바구니</a>
+            <div class="item">
+              <div class="inner">
+                <div class="message">
+                  <h3>장바구니가 비어 있습니다.</h3>
+                  <p>
+                    저장해둔 항목이 있는지 확인하려면
+                    <a href="javascript:void(0)">로그인</a>하세요
+                  </p>
+                </div>
+
+                <ul>
+                  <li><p>내 프로필</p></li>
+                  <li>
+                    <div>
+                      <img src="/images/box.png" alt="order" />
+                      <a href="javascript:void(0)" class="contents">주문</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/save-instagram.png" alt="likes" />
+                      <a href="javascript:void(0)" class="contents"
+                        >관심 목록</a
+                      >
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/setting.png" alt="account" />
+                      <a href="javascript:void(0)" class="contents">계정</a>
+                    </div>
+                  </li>
+                  <li>
+                    <div>
+                      <img src="/images/account.png" alt="signin" />
+                      <a href="javascript:void(0)" class="contents">로그인</a>
+                    </div>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </li>
         </ul>
       </div>
     </header>
+
+    <!-- Nav -->
+    <nav class="chapternav">
+      <div class="chapternav-wrapper">
+        <div class="inner">
+          <ul class="chapternav-items">
+            <li class="chapternav-item chapternav-item-ipad-pro">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPad&nbsp;Pro</span>
+                <span class="chapternav-new">New</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-air">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPad&nbsp;Air</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPad</span>
+                <span class="chapternav-new">New</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-mini">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPad mini</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-compare">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">비교하기</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-apple-pencil">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">Apple Pencil</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-magic-keyboard">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">키보드</span>
+                <span class="chapternav-new">New</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-acc">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">액세서리</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-os">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPadOS 17</span>
+                <span class="chapternav-new">미리보기</span>
+              </a>
+            </li>
+            <li class="chapternav-item chapternav-item-ipad-shopping">
+              <a href="javascript:void(0)" class="chapternav-link">
+                <figure class="chapternav-icon"></figure>
+                <span class="chapternav-label">iPad 쇼핑하기</span>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
   </body>
 </html>
